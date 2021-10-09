@@ -18,7 +18,7 @@ class PlayerArcher {
   display() {
     var pos = this.body.position;
     var angle = this.body.angle;
-    console.log(angle)
+    //console.log(angle)
 
     if (keyIsDown(DOWN_ARROW) && angle < -73 ) {
       angle += 1;
